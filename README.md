@@ -3,16 +3,16 @@ contains all AWS work
 
 Oracle Cloud Infrastructure (OCI) Functionality
 
-├── Compute
-│   ├── Virtual Machines (VMs)
-│   │   ├── Shapes:  Various CPU, memory, storage options
-│   │   ├── Images: Operating system templates
-│   │   └── Instances: Running VMs
-│   ├── Bare Metal: Dedicated physical servers
-│   ├── Containers:
-│   │   ├── Kubernetes (OKE): Managed Kubernetes service
-│   │   └── Registry (OCIR): Store and manage container images
-│   └── Functions: Serverless compute platform
+# Compute
+## Virtual Machines (VMs)
+### Shapes:  Various CPU, memory, storage options
+### Images: Operating system templates
+#### Instances: Running VMs
+### Bare Metal: Dedicated physical servers
+### Containers:
+#### Kubernetes (OKE): Managed Kubernetes service
+#### Registry (OCIR): Store and manage container images
+## Functions: Serverless compute platform
 
 ├── Networking
 │   ├── Virtual Cloud Network (VCN): Isolated network
